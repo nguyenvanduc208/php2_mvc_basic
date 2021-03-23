@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .container {
+        width: 90%;
+        margin: 20px 5%;
+        background-color: antiquewhite;
+    }
+    
+    .header {
+        text-align: center;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Add Product</h2>
+        </div>
+        <form method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="disabledSelect">Category</label>
+                <select id="disabledSelect" name="cate_id" class="form-control">
+                        <option value="">Chose Category</option>
+                        <option value="">Nguyễn ĐưcS</option>
+                    </select>
+            </div>
+            <div class="form-group">
+                <label for="disabledTextInput">Name</label>
+                <input type="text" id="disabledTextInput" class="form-control" name="name">
+            </div>
+            <div class="form-group">
+                <label for="disabledTextInput">Price</label>
+                <input type="text" id="disabledTextInput" class="form-control" name="price">
+            </div>
+            <div class="form-group">
+                <label for="disabledTextInput">Short Desc</label>
+                <input type="text" id="disabledTextInput" class="form-control" name="short_desc">
+            </div>
+            <div class="form-group">
+                <label for="disabledTextInput">Detail</label>
+                <input type="text" id="disabledTextInput" class="form-control" name="detail">
+            </div>
+            <div class="form-group">
+                <label for="disabledTextInput">Image</label>
+                <input type="file" id="disabledTextInput" class="form-control" name="image">
+            </div>
+            <button type="submit" class="btn btn-primary">Add Product</button>
+        </form>
+    </div>
+</body>
+
+</html>

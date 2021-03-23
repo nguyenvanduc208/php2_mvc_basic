@@ -1,0 +1,17 @@
+{
+    "name": "asus/assignment",
+    "authors": [{
+        "name": "DUCNVPH",
+        "email": "ducnvph11076@fpt.edu.vn"
+    }],
+    "minimum-stability": "beta",
+    "require": {
+        "illuminate/database": "^8.24",
+        "illuminate/events": "^8.24",
+        "jenssegers/blade": "*",
+        "phroute/phroute": "^2.1"
+    },
+    "autoload": {
+        "psr-4": { "App\\": "app/" }
+    }
+}
